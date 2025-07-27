@@ -14,7 +14,7 @@ export default defineConfig(({ mode }) => ({
     mode === 'development' &&
     componentTagger(),
   ].filter(Boolean),
-  base:"/EchoBeats_MusicApp",
+  base:"/EchoBeats_MusicApp/",
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
